@@ -1,0 +1,44 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "already",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "confirm",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "medications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "end",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "uploadtime",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}

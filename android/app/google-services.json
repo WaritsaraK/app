@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "125327025308",
+    "firebase_url": "https://popup-ac56e-default-rtdb.firebaseio.com",
+    "project_id": "popup-ac56e",
+    "storage_bucket": "popup-ac56e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125327025308:android:e0423f3e30bf28cd0c7959",
+        "android_client_info": {
+          "package_name": "com.mycompany.medhealth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG8L3XBY1cSrzJ5jHbDjxpGksTKLQXeK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
