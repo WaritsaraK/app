@@ -357,9 +357,15 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                   onTap: () async {
                     final _datePickedDate = await showDatePicker(
                       context: context,
-                      initialDate: getCurrentTimestamp,
+                      initialDate: ((currentUserDocument?.birthday != null
+                          ? currentUserDocument?.birthday
+                          : getCurrentTimestamp) ??
+                          DateTime.now()),
                       firstDate: DateTime(1900),
-                      lastDate: getCurrentTimestamp,
+                      lastDate: ((currentUserDocument?.birthday != null
+                          ? currentUserDocument?.birthday
+                          : getCurrentTimestamp) ??
+                          DateTime.now()),
                     );
 
                     if (_datePickedDate != null) {
